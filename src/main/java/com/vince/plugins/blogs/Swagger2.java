@@ -1,3 +1,5 @@
+package com.vince.plugins.blogs;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -30,10 +32,10 @@ public class Swagger2 {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Wmyskxz个人博客RESTful APIs")
-                .description("原文地址链接：http://blog.didispace.com/springbootswagger2/")
-                .termsOfServiceUrl("http://blog.didispace.com/")
-                .contact("@我没有三颗心脏")
+                .title("个人博客API")
+                .description("个人博客简单实践")
+                .termsOfServiceUrl("http://www.baidu.com/")
+                .contact("@Vince")
                 .version("1.0")
                 .build();
     }
